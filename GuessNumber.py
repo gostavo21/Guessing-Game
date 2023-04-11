@@ -29,4 +29,4 @@ if computerNumber != userNumber :
             a = a - 1
             
             if a == 1 :
-                print("sorry you  run out of attempts.")
+                print("Sorry You  Run Out of Attempts.")
