@@ -13,7 +13,7 @@ if computerNumber == userNumber :
     #if the user guess the computer number 
     print("You Guessed!")
 #other way if the user didnt guess the computer number
-if computerNumber != userNumber :
+elif computerNumber != userNumber :
         #make a loop 4 time
         while a > 1 :
             #tell the user the number of attempts rest
