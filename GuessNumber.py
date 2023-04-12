@@ -3,7 +3,7 @@ import random
 #creat a random number frome 1 to 10
 computerNumber = random.randint(0,10)
 #start the game
-print("You Now Start The Guessing Number game \n Guess The Computer Number \n Good Luck ")
+print("You Now Start The Guessing Number game \n Guess The Computer Number \n You Have 5 Chance \n Good Luck ")
 # get a number from user
 userNumber = int(input("Enter a Number Between 1 and 10:"))
 
@@ -31,3 +31,7 @@ elif computerNumber != userNumber :
             
             if a == 0 :
                 print("Sorry You  Run Out of Attempts.")
+                
+                
+                
+                
